@@ -7,7 +7,7 @@ metadata:
   name: static-web
 spec: 
   containers: 
-     - image: raveendrareddy/learning:latest-2
+     - image: "raveendrareddy/learning:latest-2"
        name: web
        ports: 
          - containerPort: 80
