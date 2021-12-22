@@ -4,6 +4,8 @@ provider "azurerm" {
   features {}
 }
 
+#test is my way
+
 resource "azurerm_resource_group" "resource_group_terraform" {
   name     = "terraform_resource_group"
   location = "West Europe"
